@@ -2,7 +2,7 @@
 //  SecondViewController.m
 //  RSSchoolClient
 //
-//  Created by Viktoriia Jane Ro on 06.05.2021.
+//  Created by Viktoriia Jane Ro (Viktoriia Romaniuk) on 06.05.2021.
 //
 
 #import "SecondViewController.h"

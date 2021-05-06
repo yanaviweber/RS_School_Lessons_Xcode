@@ -16,6 +16,7 @@
 		73C0578126445D4B00BB6644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0578026445D4B00BB6644 /* main.m */; };
 		73C0578B26445D4C00BB6644 /* RSSchoolClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0578A26445D4C00BB6644 /* RSSchoolClientTests.m */; };
 		73C0579626445D4C00BB6644 /* RSSchoolClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C0579526445D4C00BB6644 /* RSSchoolClientUITests.m */; };
+		73C057A8264466B700BB6644 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C057A7264466B700BB6644 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		73C0579126445D4C00BB6644 /* RSSchoolClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSchoolClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C0579526445D4C00BB6644 /* RSSchoolClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSchoolClientUITests.m; sourceTree = "<group>"; };
 		73C0579726445D4C00BB6644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C057A6264466B700BB6644 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		73C057A7264466B700BB6644 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				73C0577C26445D4B00BB6644 /* LaunchScreen.storyboard */,
 				73C0577F26445D4B00BB6644 /* Info.plist */,
 				73C0578026445D4B00BB6644 /* main.m */,
+				73C057A6264466B700BB6644 /* SecondViewController.h */,
+				73C057A7264466B700BB6644 /* SecondViewController.m */,
 			);
 			path = RSSchoolClient;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C057A8264466B700BB6644 /* SecondViewController.m in Sources */,
 				73C0577626445D4700BB6644 /* ViewController.m in Sources */,
 				73C0577026445D4700BB6644 /* AppDelegate.m in Sources */,
 				73C0578126445D4B00BB6644 /* main.m in Sources */,
