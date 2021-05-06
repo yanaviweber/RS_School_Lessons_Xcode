@@ -8,6 +8,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -18,5 +20,9 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)buttonTapped:(id)sender {
+    self.label.text = self.textField.text;
+    
+}
 
 @end
