@@ -1,17 +1,17 @@
 //
-//  RSSchoolClientTests.m
-//  RSSchoolClientTests
+//  TestProjectTests.m
+//  TestProjectTests
 //
-//  Created by Viktoriia Jane Ro (Viktoriia Romaniuk) on 06.05.2021.
+//  Created by Viktoriia Jane Ro on 09.05.2021.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface RSSchoolClientTests : XCTestCase
+@interface TestProjectTests : XCTestCase
 
 @end
 
-@implementation RSSchoolClientTests
+@implementation TestProjectTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -19,14 +19,6 @@
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
-}
-
-- (void)testSuccess {
-    XCTAssert(2+2 == 4);
-}
-
-- (void)testFailure {
-    XCTAssert(2+2 > 4);
 }
 
 - (void)testExample {
