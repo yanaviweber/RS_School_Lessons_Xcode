@@ -22,6 +22,8 @@
 }
 // MARK: This actions run successfully
 - (IBAction)buttonTapped:(id)sender {
+    
+    // MARK: Start debugging practice
     self.label.text = self.textField.text;
     
     [self printLogs];
@@ -36,4 +38,5 @@
     NSLog(@"Test3");
 }
 
+    // MARK: End debugging practice
 @end
