@@ -26,6 +26,8 @@
     
     [self printLogs];
     
+    self.label.textColor = UIColor.purpleColor;
+    
 }
 
 - (void)printLogs {
