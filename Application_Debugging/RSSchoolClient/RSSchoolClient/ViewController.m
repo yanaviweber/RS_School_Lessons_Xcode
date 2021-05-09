@@ -24,6 +24,14 @@
 - (IBAction)buttonTapped:(id)sender {
     self.label.text = self.textField.text;
     
+    [self printLogs];
+    
+}
+
+- (void)printLogs {
+    NSLog(@"Test1");
+    NSLog(@"Test2");
+    NSLog(@"Test3");
 }
 
 @end
